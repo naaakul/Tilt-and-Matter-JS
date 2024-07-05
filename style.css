@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: gilroy;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.my {
+  width: 20vw;
+  height: auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 30px;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 30px;
+}
+
+.overlay {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.199) 47%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+
+.overlay {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgb(0, 0, 0) 0%,
+    rgba(0, 0, 0, 0) 47%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
